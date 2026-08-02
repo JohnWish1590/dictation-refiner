@@ -1,0 +1,11 @@
+{
+  "name": "dictation-refiner",
+  "description": "语音听写文本润色：把 ASR 语音识别结果整理成清楚、自然、可插入的最终文字（补标点、去口头词、修正同音词、保留术语大小写），复刻自开源项目 Cindy 的 dictation-refinement 功能。",
+  "description_en": "Speech dictation refiner: cleans up ASR transcription into clear, natural, insert-ready text (punctuation, filler removal, homophone fixes, term casing preservation). Ported from the open-source Cindy project.",
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "author": {
+    "name": ""
+  },
+  "homepage": "https://github.com/makecindy/cindy"
+}
