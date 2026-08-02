@@ -109,7 +109,7 @@ async function main() {
     process.exit(2);
   }
 
-  const apiKey = args['api-key'] || process.env.REFINER_API_KEY || process.env.OPENAI_API_KEY;
+  const apiKey = args['api-key'] || process.env.REFINER_API_KEY || process.env.OPENAI_API_KEY || process.env.DEEPSEEK_API_KEY;
   const baseUrl = args['base-url'] || process.env.REFINER_BASE_URL || 'https://api.openai.com/v1';
   const model = args.model || process.env.REFINER_MODEL || 'gpt-4o-mini';
   const timeoutMs = Number(args['timeout-ms'] || 8000);
